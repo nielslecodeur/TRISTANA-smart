@@ -1,6 +1,30 @@
-# Rust's output directory
-target
+# Rust / Cargo
+target/
+Cargo.lock
 
-# Local settings
-.soroban
-.stellar
+# Rust analyzer / IDE
+.rust-analyzer/
+.idea/
+.vscode/
+
+# macOS
+.DS_Store
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Soroban / Stellar
+.soroban/
+.stellar/
+
+# WASM build artifacts
+*.wasm
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
